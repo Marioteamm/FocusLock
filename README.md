@@ -105,3 +105,12 @@ Shared/ (compiled into app + extensions)
 ## Notes
 - Usage time in UI comes from App Group keys updated by Device Activity; exact per-app reporting may require a DeviceActivityReport extension for production analytics.
 - Replace placeholder app names (`Додаток 1`) with `Label(token)` in UI if you add token-based labels later.
+
+## Contact
+
+Developer: Marioteamm
+
+For project inquiries or custom app development:
+
+📧 Email: milanaliveyou@gmail.com
+
