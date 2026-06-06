@@ -1,3 +1,4 @@
+<img width="586" height="1212" alt="Знімок екрана 2026-06-01 213125" src="https://github.com/user-attachments/assets/a41f93a3-93ae-4852-a44f-aa0fdc9bf361" />
 # FocusLock — iOS Screen Time App
 
 ## Requirements
