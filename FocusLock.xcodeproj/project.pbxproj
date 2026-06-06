@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F001000200000001 /* AppGroupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001000100000001 /* AppGroupConstants.swift */; };
+		F006000200000001 /* FocusLockActivityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006000100000001 /* FocusLockActivityIdentifiers.swift */; };
+		F001000200000003 /* FamilyActivitySelectionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001000100000003 /* FamilyActivitySelectionStorage.swift */; };
+		F001000200000004 /* FocusLockManagedSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001000100000004 /* FocusLockManagedSettings.swift */; };
+		F001000300000001 /* AppGroupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001000100000001 /* AppGroupConstants.swift */; };
+		F006000300000001 /* FocusLockActivityIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006000100000001 /* FocusLockActivityIdentifiers.swift */; };
+		F001000300000003 /* FamilyActivitySelectionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001000100000003 /* FamilyActivitySelectionStorage.swift */; };
+		F001000300000004 /* FocusLockManagedSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001000100000004 /* FocusLockManagedSettings.swift */; };
+		F001000400000001 /* AppGroupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001000100000001 /* AppGroupConstants.swift */; };
+		F001000400000003 /* FamilyActivitySelectionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001000100000003 /* FamilyActivitySelectionStorage.swift */; };
+		F001000400000004 /* FocusLockManagedSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001000100000004 /* FocusLockManagedSettings.swift */; };
+		8E288ACDFDB74DD79264C47D /* FocusLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D3133DD2724E52A6CCEAA1 /* FocusLockApp.swift */; };
+		CBE6BDC0300F4ECA9F13E8E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7217E1590D37468AB7E3586F /* ContentView.swift */; };
+		F10CC288C76849829C8F1BF1 /* AppLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAC0D4E33E44DCADE18FFF /* AppLimit.swift */; };
+		7127856ABD784C63A5C68187 /* DailyStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B63F3363E54688B6AA5CE3 /* DailyStats.swift */; };
+		E8442EC2FBA34BAB9EEA8ABB /* AppUsageRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C14C8558624BBF90806194 /* AppUsageRecord.swift */; };
+		DDB9050EABF84B01AB406444 /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8984269CB4534ED88F3E8462 /* Color+Theme.swift */; };
+		40E7436A3D954D3081C859F2 /* Date+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA854779984E60811B4A21 /* Date+Helpers.swift */; };
+		BE6EE9C45BD143BFA47B1491 /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC7B619AD5745D29F308A8C /* View+Modifiers.swift */; };
+		AE871791053B478A9075D843 /* ScreenTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B09D19695BB4BDA8B2C96CD /* ScreenTimeService.swift */; };
+		B6DFDB4143374B9F9F345EC2 /* DeviceActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734EA43233C9499396A7ED88 /* DeviceActivityService.swift */; };
+		C102F06F7A3A4F579C3947E7 /* ManagedSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2488C7707635499CAA35BD1F /* ManagedSettingsService.swift */; };
+		9FAF8F6048AE415299795126 /* AppBlockingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7866EC5B28014ACD97B1AEFF /* AppBlockingManager.swift */; };
+		71FAD20E43324E3FB4F65708 /* DailyResetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32258B4E6E97464ABC6B41F8 /* DailyResetManager.swift */; };
+		CB3B218589BA4C518373C120 /* UsageTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420732CEF2B648B7BD9E5FC4 /* UsageTrackingManager.swift */; };
+		71FB1AB8EC214EB599AD3189 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B7C32B71E8437593E40126 /* HomeViewModel.swift */; };
+		D55F8089E6E6424E9F690F5A /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5564FC11453341D1867820FE /* StatsViewModel.swift */; };
+		396C1F6D46814F2AB969B559 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720CD7E2572A4E60A048A5A4 /* SettingsViewModel.swift */; };
+		7B3C8CABDDEF4BD3B6E106BC /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D747B828B7614EE8A836FCDF /* EmptyStateView.swift */; };
+		BFDE8563A25E4D53BD463797 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4D443640AC45F498398EE3 /* CountdownView.swift */; };
+		C044E89187AE4A57898D323A /* ProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA830F698C794A43A0823F9F /* ProgressRingView.swift */; };
+		B535CDE910DF4F0EB8950DDC /* AppLimitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A6FF6EE5CD451D894C455B /* AppLimitCard.swift */; };
+		D19B138EDBCB4D7BA60C2E70 /* FamilyActivityPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827807E29DE54B29875E56FA /* FamilyActivityPickerSheet.swift */; };
+		EC2D65601B7D40BB83BDCC18 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CDAC58303B4CB9A2538CBE /* HomeView.swift */; };
+		357EC457630C4451B6A902ED /* StatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F586D0F5D845E2A41C8265 /* StatCardView.swift */; };
+		4E674B8E1D6446BF98B29AF0 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5262641721440CBC76577A /* StatsView.swift */; };
+		6C2C0EBBE018436AAB7C0ACD /* TimeLimitPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2285FC540E354C76A9CA39CF /* TimeLimitPickerView.swift */; };
+		6EE7C58F7C144E9C8EFFED80 /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C625497D48C34856BF7FB743 /* ShieldConfigurationExtension.swift */; };
+		F862EF81F57841F696B8C6F2 /* ShieldActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B634B8FFA8048F3B77CC22D /* ShieldActionExtension.swift */; };
+		C66E4DA23ACE41BDB128BD28 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580FAEE9049E436D93DD08D0 /* DeviceActivityMonitorExtension.swift */; };
+		DF880E77CF2A41B8AC70CE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8780DE5DCB4E83AE8F35A0 /* Assets.xcassets */; };
+		F002000200000001 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000001 /* AppSettings.swift */; };
+		F002000200000002 /* FocusSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000002 /* FocusSession.swift */; };
+		F002000200000003 /* DailyStreakRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000003 /* DailyStreakRecord.swift */; };
+		F002000200000004 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000004 /* AppError.swift */; };
+		F002000200000005 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000005 /* AppCoordinator.swift */; };
+		F002000200000006 /* SettingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000006 /* SettingsRepository.swift */; };
+		F002000200000007 /* StreakManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000007 /* StreakManager.swift */; };
+		F002000200000008 /* FocusSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000008 /* FocusSessionManager.swift */; };
+		F002000200000009 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000009 /* HapticFeedback.swift */; };
+		F002000200000010 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000010 /* OnboardingViewModel.swift */; };
+		F002000200000011 /* FocusSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000011 /* FocusSessionViewModel.swift */; };
+		F002000200000012 /* View+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000012 /* View+Animations.swift */; };
+		F002000200000013 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000013 /* LoadingOverlay.swift */; };
+		F002000200000014 /* ErrorBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000014 /* ErrorBanner.swift */; };
+		F002000200000015 /* StreakBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000015 /* StreakBadgeView.swift */; };
+		F002000200000016 /* AppTokenLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000016 /* AppTokenLabelView.swift */; };
+		F002000200000017 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000017 /* OnboardingContainerView.swift */; };
+		F002000200000018 /* FocusSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000018 /* FocusSessionView.swift */; };
+		F002000200000019 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000019 /* SettingsView.swift */; };
+		F002000200000020 /* AppLimitsManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000020 /* AppLimitsManagementView.swift */; };
+		F002000200000021 /* EditAppLimitSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000021 /* EditAppLimitSheet.swift */; };
+		F002000200000022 /* WeeklyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002000100000022 /* WeeklyChartView.swift */; };
+		F003000200000001 /* PremiumDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003000100000001 /* PremiumDesign.swift */; };
+		F003000200000002 /* AppTokenIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003000100000002 /* AppTokenIconView.swift */; };
+		F003000200000003 /* UsageHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003000100000003 /* UsageHistoryService.swift */; };
+		F003000200000004 /* AppSelectionFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003000100000004 /* AppSelectionFlowView.swift */; };
+		F004000200000001 /* MindfulCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004000100000001 /* MindfulCopy.swift */; };
+		F004000200000002 /* MotivationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004000100000002 /* MotivationManager.swift */; };
+		F004000200000003 /* BreathingPauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004000100000003 /* BreathingPauseView.swift */; };
+		F004000200000004 /* StreakCelebrationOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004000100000004 /* StreakCelebrationOverlay.swift */; };
+		F004000200000005 /* DailyIntentionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004000100000005 /* DailyIntentionCard.swift */; };
+		F004000200000006 /* HabitGrowthTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004000100000006 /* HabitGrowthTreeView.swift */; };
+		F004000200000007 /* WellnessScoreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004000100000007 /* WellnessScoreCard.swift */; };
+		F005000200000001 /* FocusLockConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000001 /* FocusLockConfig.swift */; };
+		F005000200000002 /* FamilyControlsServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000002 /* FamilyControlsServicing.swift */; };
+		F005000200000003 /* DeviceActivityServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000003 /* DeviceActivityServicing.swift */; };
+		F005000200000004 /* ManagedSettingsServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000004 /* ManagedSettingsServicing.swift */; };
+		F005000200000005 /* LiveFamilyControlsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000005 /* LiveFamilyControlsService.swift */; };
+		F005000200000006 /* LiveDeviceActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000006 /* LiveDeviceActivityService.swift */; };
+		F005000200000007 /* LiveManagedSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000007 /* LiveManagedSettingsService.swift */; };
+		F005000200000008 /* MockFamilyControlsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000008 /* MockFamilyControlsService.swift */; };
+		F005000200000009 /* MockDeviceActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000009 /* MockDeviceActivityService.swift */; };
+		F005000200000010 /* MockManagedSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000010 /* MockManagedSettingsService.swift */; };
+		F005000200000011 /* MockAppPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005000100000011 /* MockAppPickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7D3133DD2724E52A6CCEAA1 /* FocusLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FocusLockApp.swift"; sourceTree = "<group>"; };
+		7217E1590D37468AB7E3586F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		3FFAC0D4E33E44DCADE18FFF /* AppLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppLimit.swift"; sourceTree = "<group>"; };
+		53B63F3363E54688B6AA5CE3 /* DailyStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyStats.swift"; sourceTree = "<group>"; };
+		14C14C8558624BBF90806194 /* AppUsageRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppUsageRecord.swift"; sourceTree = "<group>"; };
+		8984269CB4534ED88F3E8462 /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		BFFA854779984E60811B4A21 /* Date+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Helpers.swift"; sourceTree = "<group>"; };
+		FCC7B619AD5745D29F308A8C /* View+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modifiers.swift"; sourceTree = "<group>"; };
+		9B09D19695BB4BDA8B2C96CD /* ScreenTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScreenTimeService.swift"; sourceTree = "<group>"; };
+		734EA43233C9499396A7ED88 /* DeviceActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeviceActivityService.swift"; sourceTree = "<group>"; };
+		2488C7707635499CAA35BD1F /* ManagedSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ManagedSettingsService.swift"; sourceTree = "<group>"; };
+		7866EC5B28014ACD97B1AEFF /* AppBlockingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppBlockingManager.swift"; sourceTree = "<group>"; };
+		32258B4E6E97464ABC6B41F8 /* DailyResetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyResetManager.swift"; sourceTree = "<group>"; };
+		420732CEF2B648B7BD9E5FC4 /* UsageTrackingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsageTrackingManager.swift"; sourceTree = "<group>"; };
+		C9B7C32B71E8437593E40126 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewModel.swift"; sourceTree = "<group>"; };
+		5564FC11453341D1867820FE /* StatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatsViewModel.swift"; sourceTree = "<group>"; };
+		720CD7E2572A4E60A048A5A4 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewModel.swift"; sourceTree = "<group>"; };
+		D747B828B7614EE8A836FCDF /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmptyStateView.swift"; sourceTree = "<group>"; };
+		FA4D443640AC45F498398EE3 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CountdownView.swift"; sourceTree = "<group>"; };
+		EA830F698C794A43A0823F9F /* ProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressRingView.swift"; sourceTree = "<group>"; };
+		D9A6FF6EE5CD451D894C455B /* AppLimitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppLimitCard.swift"; sourceTree = "<group>"; };
+		827807E29DE54B29875E56FA /* FamilyActivityPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FamilyActivityPickerSheet.swift"; sourceTree = "<group>"; };
+		15CDAC58303B4CB9A2538CBE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView.swift"; sourceTree = "<group>"; };
+		86F586D0F5D845E2A41C8265 /* StatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatCardView.swift"; sourceTree = "<group>"; };
+		3C5262641721440CBC76577A /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatsView.swift"; sourceTree = "<group>"; };
+		2285FC540E354C76A9CA39CF /* TimeLimitPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeLimitPickerView.swift"; sourceTree = "<group>"; };
+		C625497D48C34856BF7FB743 /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShieldConfigurationExtension.swift"; sourceTree = "<group>"; };
+		7B634B8FFA8048F3B77CC22D /* ShieldActionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShieldActionExtension.swift"; sourceTree = "<group>"; };
+		580FAEE9049E436D93DD08D0 /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeviceActivityMonitorExtension.swift"; sourceTree = "<group>"; };
+		34E57F5D592D4B4CB79C0AC3 /* FocusLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A0A7E9AFFC44AA9ADCB150 /* ShieldExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShieldExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DECCC19A5DA4757B28885A7 /* DeviceActivityMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeviceActivityMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DF5843BB554AD29D1496E0 /* Info.plist (App) */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F9013395234C1BA7C2CFF4 /* Info.plist (Shield) */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573FBF54B1DF46A78C94A406 /* Info.plist (Monitor) */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8780DE5DCB4E83AE8F35A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F001000100000001 /* AppGroupConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupConstants.swift; sourceTree = "<group>"; };
+		F006000100000001 /* FocusLockActivityIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusLockActivityIdentifiers.swift; sourceTree = "<group>"; };
+		F001000100000003 /* FamilyActivitySelectionStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyActivitySelectionStorage.swift; sourceTree = "<group>"; };
+		F001000100000004 /* FocusLockManagedSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusLockManagedSettings.swift; sourceTree = "<group>"; };
+		F002000100000001 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		F002000100000002 /* FocusSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSession.swift; sourceTree = "<group>"; };
+		F002000100000003 /* DailyStreakRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyStreakRecord.swift; sourceTree = "<group>"; };
+		F002000100000004 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		F002000100000005 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F002000100000006 /* SettingsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRepository.swift; sourceTree = "<group>"; };
+		F002000100000007 /* StreakManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakManager.swift; sourceTree = "<group>"; };
+		F002000100000008 /* FocusSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionManager.swift; sourceTree = "<group>"; };
+		F002000100000009 /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		F002000100000010 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		F002000100000011 /* FocusSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionViewModel.swift; sourceTree = "<group>"; };
+		F002000100000012 /* View+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Animations.swift"; sourceTree = "<group>"; };
+		F002000100000013 /* LoadingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		F002000100000014 /* ErrorBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorBanner.swift; sourceTree = "<group>"; };
+		F002000100000015 /* StreakBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakBadgeView.swift; sourceTree = "<group>"; };
+		F002000100000016 /* AppTokenLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTokenLabelView.swift; sourceTree = "<group>"; };
+		F002000100000017 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		F002000100000018 /* FocusSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSessionView.swift; sourceTree = "<group>"; };
+		F002000100000019 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F002000100000020 /* AppLimitsManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLimitsManagementView.swift; sourceTree = "<group>"; };
+		F002000100000021 /* EditAppLimitSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAppLimitSheet.swift; sourceTree = "<group>"; };
+		F002000100000022 /* WeeklyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChartView.swift; sourceTree = "<group>"; };
+		F003000100000001 /* PremiumDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumDesign.swift; sourceTree = "<group>"; };
+		F003000100000002 /* AppTokenIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTokenIconView.swift; sourceTree = "<group>"; };
+		F003000100000003 /* UsageHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageHistoryService.swift; sourceTree = "<group>"; };
+		F003000100000004 /* AppSelectionFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSelectionFlowView.swift; sourceTree = "<group>"; };
+		F004000100000001 /* MindfulCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulCopy.swift; sourceTree = "<group>"; };
+		F004000100000002 /* MotivationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationManager.swift; sourceTree = "<group>"; };
+		F004000100000003 /* BreathingPauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingPauseView.swift; sourceTree = "<group>"; };
+		F004000100000004 /* StreakCelebrationOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCelebrationOverlay.swift; sourceTree = "<group>"; };
+		F004000100000005 /* DailyIntentionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyIntentionCard.swift; sourceTree = "<group>"; };
+		F004000100000006 /* HabitGrowthTreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitGrowthTreeView.swift; sourceTree = "<group>"; };
+		F004000100000007 /* WellnessScoreCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessScoreCard.swift; sourceTree = "<group>"; };
+		F005000100000001 /* FocusLockConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusLockConfig.swift; sourceTree = "<group>"; };
+		F005000100000002 /* FamilyControlsServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyControlsServicing.swift; sourceTree = "<group>"; };
+		F005000100000003 /* DeviceActivityServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityServicing.swift; sourceTree = "<group>"; };
+		F005000100000004 /* ManagedSettingsServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedSettingsServicing.swift; sourceTree = "<group>"; };
+		F005000100000005 /* LiveFamilyControlsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveFamilyControlsService.swift; sourceTree = "<group>"; };
+		F005000100000006 /* LiveDeviceActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDeviceActivityService.swift; sourceTree = "<group>"; };
+		F005000100000007 /* LiveManagedSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveManagedSettingsService.swift; sourceTree = "<group>"; };
+		F005000100000008 /* MockFamilyControlsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFamilyControlsService.swift; sourceTree = "<group>"; };
+		F005000100000009 /* MockDeviceActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDeviceActivityService.swift; sourceTree = "<group>"; };
+		F005000100000010 /* MockManagedSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockManagedSettingsService.swift; sourceTree = "<group>"; };
+		F005000100000011 /* MockAppPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAppPickerView.swift; sourceTree = "<group>"; };
+		F005000100000012 /* FocusLock-Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FocusLock-Debug.entitlements"; sourceTree = "<group>"; };
+		F005000100000013 /* ShieldExtension-Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ShieldExtension-Debug.entitlements"; sourceTree = "<group>"; };
+		F005000100000014 /* DeviceActivityMonitor-Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DeviceActivityMonitor-Debug.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXContainerItemProxy section */
+		F001000600000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C32A4900EEF4842AA960D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333A5F95B10B494C88ED7CE1;
+			remoteInfo = ShieldExtension;
+		};
+		F001000600000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C32A4900EEF4842AA960D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890792C4E6F2450585AD65B4;
+			remoteInfo = DeviceActivityMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXGroup section */
+		92BC9D9EEFD84F3E9E017E40 = {
+			isa = PBXGroup;
+			children = (
+				FF08D164866448D88F51CDE6 /* FocusLock */,
+				F001000500000001 /* Shared */,
+				C6DBC62E982B4D688906F284 /* ShieldExtension */,
+				6BEEA4EBF6904E62A75E0055 /* DeviceActivityMonitor */,
+				4D7197698D1A41F09B2E0B7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F001000500000001 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F001000100000001 /* AppGroupConstants.swift */,
+				F006000100000001 /* FocusLockActivityIdentifiers.swift */,
+				F001000100000003 /* FamilyActivitySelectionStorage.swift */,
+				F001000100000004 /* FocusLockManagedSettings.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4D7197698D1A41F09B2E0B7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34E57F5D592D4B4CB79C0AC3 /* FocusLock.app */,
+				92A0A7E9AFFC44AA9ADCB150 /* ShieldExtension.appex */,
+				9DECCC19A5DA4757B28885A7 /* DeviceActivityMonitor.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF08D164866448D88F51CDE6 /* FocusLock */ = {
+			isa = PBXGroup;
+			children = (
+				E7D3133DD2724E52A6CCEAA1 /* FocusLockApp.swift */,
+				7217E1590D37468AB7E3586F /* ContentView.swift */,
+				F002000500000001 /* Core */,
+				65618A711E5444EC90E428BF /* Models */,
+				40FEF8970C0A4F358287130E /* ViewModels */,
+				FDAEEA2B744E42D2B1AF835E /* Views */,
+				C83E5F31E7B44EFAB86FED88 /* Services */,
+				C6AF7D39DE654F88A4C00B8E /* Managers */,
+				F002000500000002 /* Utilities */,
+				F003000500000001 /* Design */,
+				52B35D8C124249E9847A46B6 /* Extensions */,
+				8D8780DE5DCB4E83AE8F35A0 /* Assets.xcassets */,
+				62DF5843BB554AD29D1496E0 /* Info.plist */,
+				F005000100000012 /* FocusLock-Debug.entitlements */,
+			);
+			path = FocusLock;
+			sourceTree = "<group>";
+		};
+		F002000500000001 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F005000100000001 /* FocusLockConfig.swift */,
+				F002000100000004 /* AppError.swift */,
+				F002000100000005 /* AppCoordinator.swift */,
+				F004000100000001 /* MindfulCopy.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F002000500000002 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F002000100000009 /* HapticFeedback.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F003000500000001 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				F003000100000001 /* PremiumDesign.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		65618A711E5444EC90E428BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FFAC0D4E33E44DCADE18FFF /* AppLimit.swift */,
+				53B63F3363E54688B6AA5CE3 /* DailyStats.swift */,
+				14C14C8558624BBF90806194 /* AppUsageRecord.swift */,
+				F002000100000001 /* AppSettings.swift */,
+				F002000100000002 /* FocusSession.swift */,
+				F002000100000003 /* DailyStreakRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52B35D8C124249E9847A46B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8984269CB4534ED88F3E8462 /* Color+Theme.swift */,
+				BFFA854779984E60811B4A21 /* Date+Helpers.swift */,
+				FCC7B619AD5745D29F308A8C /* View+Modifiers.swift */,
+				F002000100000012 /* View+Animations.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C83E5F31E7B44EFAB86FED88 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9B09D19695BB4BDA8B2C96CD /* ScreenTimeService.swift */,
+				734EA43233C9499396A7ED88 /* DeviceActivityService.swift */,
+				2488C7707635499CAA35BD1F /* ManagedSettingsService.swift */,
+				F005000500000001 /* Protocols */,
+				F005000500000002 /* Live */,
+				F005000500000003 /* Mock */,
+				F002000100000006 /* SettingsRepository.swift */,
+				F003000100000003 /* UsageHistoryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F005000500000001 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F005000100000002 /* FamilyControlsServicing.swift */,
+				F005000100000003 /* DeviceActivityServicing.swift */,
+				F005000100000004 /* ManagedSettingsServicing.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F005000500000002 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				F005000100000005 /* LiveFamilyControlsService.swift */,
+				F005000100000006 /* LiveDeviceActivityService.swift */,
+				F005000100000007 /* LiveManagedSettingsService.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		F005000500000003 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				F005000100000008 /* MockFamilyControlsService.swift */,
+				F005000100000009 /* MockDeviceActivityService.swift */,
+				F005000100000010 /* MockManagedSettingsService.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		C6AF7D39DE654F88A4C00B8E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7866EC5B28014ACD97B1AEFF /* AppBlockingManager.swift */,
+				32258B4E6E97464ABC6B41F8 /* DailyResetManager.swift */,
+				420732CEF2B648B7BD9E5FC4 /* UsageTrackingManager.swift */,
+				F002000100000007 /* StreakManager.swift */,
+				F002000100000008 /* FocusSessionManager.swift */,
+				F004000100000002 /* MotivationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		40FEF8970C0A4F358287130E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C9B7C32B71E8437593E40126 /* HomeViewModel.swift */,
+				5564FC11453341D1867820FE /* StatsViewModel.swift */,
+				720CD7E2572A4E60A048A5A4 /* SettingsViewModel.swift */,
+				F002000100000010 /* OnboardingViewModel.swift */,
+				F002000100000011 /* FocusSessionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FDAEEA2B744E42D2B1AF835E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7083AFD17F8F4F82BD16DCF4 /* Components */,
+				F002000500000003 /* Onboarding */,
+				9A3CD302914C4CB396CEE810 /* Home */,
+				F002000500000004 /* Focus */,
+				648556B352494618B538A5C5 /* Stats */,
+				F936FCB22F794559BAC61315 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F002000500000003 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F002000100000017 /* OnboardingContainerView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F002000500000004 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				F002000100000018 /* FocusSessionView.swift */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		7083AFD17F8F4F82BD16DCF4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D747B828B7614EE8A836FCDF /* EmptyStateView.swift */,
+				FA4D443640AC45F498398EE3 /* CountdownView.swift */,
+				F002000100000013 /* LoadingOverlay.swift */,
+				F002000100000014 /* ErrorBanner.swift */,
+				F002000100000015 /* StreakBadgeView.swift */,
+				F002000100000016 /* AppTokenLabelView.swift */,
+				F003000100000002 /* AppTokenIconView.swift */,
+				F004000100000003 /* BreathingPauseView.swift */,
+				F004000100000004 /* StreakCelebrationOverlay.swift */,
+				F004000100000005 /* DailyIntentionCard.swift */,
+				F004000100000006 /* HabitGrowthTreeView.swift */,
+				F004000100000007 /* WellnessScoreCard.swift */,
+				F005000100000011 /* MockAppPickerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9A3CD302914C4CB396CEE810 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EA830F698C794A43A0823F9F /* ProgressRingView.swift */,
+				D9A6FF6EE5CD451D894C455B /* AppLimitCard.swift */,
+				827807E29DE54B29875E56FA /* FamilyActivityPickerSheet.swift */,
+				F003000100000004 /* AppSelectionFlowView.swift */,
+				15CDAC58303B4CB9A2538CBE /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		648556B352494618B538A5C5 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				86F586D0F5D845E2A41C8265 /* StatCardView.swift */,
+				3C5262641721440CBC76577A /* StatsView.swift */,
+				F002000100000022 /* WeeklyChartView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		F936FCB22F794559BAC61315 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F002000100000019 /* SettingsView.swift */,
+				F002000100000020 /* AppLimitsManagementView.swift */,
+				F002000100000021 /* EditAppLimitSheet.swift */,
+				2285FC540E354C76A9CA39CF /* TimeLimitPickerView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C6DBC62E982B4D688906F284 /* ShieldExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C625497D48C34856BF7FB743 /* ShieldConfigurationExtension.swift */,
+				7B634B8FFA8048F3B77CC22D /* ShieldActionExtension.swift */,
+				69F9013395234C1BA7C2CFF4 /* Info.plist */,
+				F005000100000013 /* ShieldExtension-Debug.entitlements */,
+			);
+			path = ShieldExtension;
+			sourceTree = "<group>";
+		};
+		6BEEA4EBF6904E62A75E0055 /* DeviceActivityMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				580FAEE9049E436D93DD08D0 /* DeviceActivityMonitorExtension.swift */,
+				573FBF54B1DF46A78C94A406 /* Info.plist */,
+				F005000100000014 /* DeviceActivityMonitor-Debug.entitlements */,
+			);
+			path = DeviceActivityMonitor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9909609A7A84E329A101EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E288ACDFDB74DD79264C47D /* FocusLockApp.swift in Sources */,
+				CBE6BDC0300F4ECA9F13E8E5 /* ContentView.swift in Sources */,
+				F10CC288C76849829C8F1BF1 /* AppLimit.swift in Sources */,
+				7127856ABD784C63A5C68187 /* DailyStats.swift in Sources */,
+				E8442EC2FBA34BAB9EEA8ABB /* AppUsageRecord.swift in Sources */,
+				DDB9050EABF84B01AB406444 /* Color+Theme.swift in Sources */,
+				40E7436A3D954D3081C859F2 /* Date+Helpers.swift in Sources */,
+				BE6EE9C45BD143BFA47B1491 /* View+Modifiers.swift in Sources */,
+				AE871791053B478A9075D843 /* ScreenTimeService.swift in Sources */,
+				B6DFDB4143374B9F9F345EC2 /* DeviceActivityService.swift in Sources */,
+				C102F06F7A3A4F579C3947E7 /* ManagedSettingsService.swift in Sources */,
+				9FAF8F6048AE415299795126 /* AppBlockingManager.swift in Sources */,
+				71FAD20E43324E3FB4F65708 /* DailyResetManager.swift in Sources */,
+				CB3B218589BA4C518373C120 /* UsageTrackingManager.swift in Sources */,
+				71FB1AB8EC214EB599AD3189 /* HomeViewModel.swift in Sources */,
+				D55F8089E6E6424E9F690F5A /* StatsViewModel.swift in Sources */,
+				396C1F6D46814F2AB969B559 /* SettingsViewModel.swift in Sources */,
+				7B3C8CABDDEF4BD3B6E106BC /* EmptyStateView.swift in Sources */,
+				BFDE8563A25E4D53BD463797 /* CountdownView.swift in Sources */,
+				C044E89187AE4A57898D323A /* ProgressRingView.swift in Sources */,
+				B535CDE910DF4F0EB8950DDC /* AppLimitCard.swift in Sources */,
+				D19B138EDBCB4D7BA60C2E70 /* FamilyActivityPickerSheet.swift in Sources */,
+				EC2D65601B7D40BB83BDCC18 /* HomeView.swift in Sources */,
+				357EC457630C4451B6A902ED /* StatCardView.swift in Sources */,
+				4E674B8E1D6446BF98B29AF0 /* StatsView.swift in Sources */,
+				6C2C0EBBE018436AAB7C0ACD /* TimeLimitPickerView.swift in Sources */,
+				F001000200000001 /* AppGroupConstants.swift in Sources */,
+				F006000200000001 /* FocusLockActivityIdentifiers.swift in Sources */,
+				F001000200000003 /* FamilyActivitySelectionStorage.swift in Sources */,
+				F001000200000004 /* FocusLockManagedSettings.swift in Sources */,
+				F002000200000001 /* AppSettings.swift in Sources */,
+				F002000200000002 /* FocusSession.swift in Sources */,
+				F002000200000003 /* DailyStreakRecord.swift in Sources */,
+				F002000200000004 /* AppError.swift in Sources */,
+				F002000200000005 /* AppCoordinator.swift in Sources */,
+				F002000200000006 /* SettingsRepository.swift in Sources */,
+				F002000200000007 /* StreakManager.swift in Sources */,
+				F002000200000008 /* FocusSessionManager.swift in Sources */,
+				F002000200000009 /* HapticFeedback.swift in Sources */,
+				F002000200000010 /* OnboardingViewModel.swift in Sources */,
+				F002000200000011 /* FocusSessionViewModel.swift in Sources */,
+				F002000200000012 /* View+Animations.swift in Sources */,
+				F002000200000013 /* LoadingOverlay.swift in Sources */,
+				F002000200000014 /* ErrorBanner.swift in Sources */,
+				F002000200000015 /* StreakBadgeView.swift in Sources */,
+				F002000200000016 /* AppTokenLabelView.swift in Sources */,
+				F002000200000017 /* OnboardingContainerView.swift in Sources */,
+				F002000200000018 /* FocusSessionView.swift in Sources */,
+				F002000200000019 /* SettingsView.swift in Sources */,
+				F002000200000020 /* AppLimitsManagementView.swift in Sources */,
+				F002000200000021 /* EditAppLimitSheet.swift in Sources */,
+				F002000200000022 /* WeeklyChartView.swift in Sources */,
+				F003000200000001 /* PremiumDesign.swift in Sources */,
+				F003000200000002 /* AppTokenIconView.swift in Sources */,
+				F003000200000003 /* UsageHistoryService.swift in Sources */,
+				F003000200000004 /* AppSelectionFlowView.swift in Sources */,
+				F004000200000001 /* MindfulCopy.swift in Sources */,
+				F004000200000002 /* MotivationManager.swift in Sources */,
+				F004000200000003 /* BreathingPauseView.swift in Sources */,
+				F004000200000004 /* StreakCelebrationOverlay.swift in Sources */,
+				F004000200000005 /* DailyIntentionCard.swift in Sources */,
+				F004000200000006 /* HabitGrowthTreeView.swift in Sources */,
+				F004000200000007 /* WellnessScoreCard.swift in Sources */,
+				F005000200000001 /* FocusLockConfig.swift in Sources */,
+				F005000200000002 /* FamilyControlsServicing.swift in Sources */,
+				F005000200000003 /* DeviceActivityServicing.swift in Sources */,
+				F005000200000004 /* ManagedSettingsServicing.swift in Sources */,
+				F005000200000005 /* LiveFamilyControlsService.swift in Sources */,
+				F005000200000006 /* LiveDeviceActivityService.swift in Sources */,
+				F005000200000007 /* LiveManagedSettingsService.swift in Sources */,
+				F005000200000008 /* MockFamilyControlsService.swift in Sources */,
+				F005000200000009 /* MockDeviceActivityService.swift in Sources */,
+				F005000200000010 /* MockManagedSettingsService.swift in Sources */,
+				F005000200000011 /* MockAppPickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA1E504B974846959AB87E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE7C58F7C144E9C8EFFED80 /* ShieldConfigurationExtension.swift in Sources */,
+				F862EF81F57841F696B8C6F2 /* ShieldActionExtension.swift in Sources */,
+				F001000400000001 /* AppGroupConstants.swift in Sources */,
+				F001000400000003 /* FamilyActivitySelectionStorage.swift in Sources */,
+				F001000400000004 /* FocusLockManagedSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B77FD95A9844523998BF3D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66E4DA23ACE41BDB128BD28 /* DeviceActivityMonitorExtension.swift in Sources */,
+				F001000300000001 /* AppGroupConstants.swift in Sources */,
+				F006000300000001 /* FocusLockActivityIdentifiers.swift in Sources */,
+				F001000300000003 /* FamilyActivitySelectionStorage.swift in Sources */,
+				F001000300000004 /* FocusLockManagedSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F001000700000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333A5F95B10B494C88ED7CE1 /* ShieldExtension */;
+			targetProxy = F001000600000001 /* PBXContainerItemProxy */;
+		};
+		F001000700000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890792C4E6F2450585AD65B4 /* DeviceActivityMonitor */;
+			targetProxy = F001000600000002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849486B70E0B49AA873FAF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF880E77CF2A41B8AC70CE34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E9A765CAB494E9588CC2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0668B8107C4C18A60A963D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F006000400000001 /* Embed Screen Time Extensions (Release) */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Screen Time Extensions (Release)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$CONFIGURATION\" = \"Debug\" ]; then\n  echo \"FocusLock: Debug — Screen Time extensions are not embedded\"\n  exit 0\nfi\n\nPLUGINS=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}/PlugIns\"\nmkdir -p \"$PLUGINS\"\nfor ext in ShieldExtension DeviceActivityMonitor; do\n  SRC=\"${BUILT_PRODUCTS_DIR}/${ext}.appex\"\n  if [ ! -d \"$SRC\" ]; then\n    echo \"error: Missing ${SRC}. Build ShieldExtension and DeviceActivityMonitor (Release) before archiving.\"\n    exit 1\n  fi\n  rm -rf \"$PLUGINS/${ext}.appex\"\n  ditto \"$SRC\" \"$PLUGINS/${ext}.appex\"\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DD12F45429DD49AC8DD00D09 /* FocusLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DCB07EFE8264A718A39F8FD /* Build configuration list for PBXNativeTarget "FocusLock" */;
+			buildPhases = (
+				A9909609A7A84E329A101EB9 /* Sources */,
+				849486B70E0B49AA873FAF12 /* Resources */,
+				F006000400000001 /* Embed Screen Time Extensions (Release) */,
+			);
+			buildRules = ();
+			dependencies = (
+			);
+			name = FocusLock;
+			productName = FocusLock;
+			productReference = 34E57F5D592D4B4CB79C0AC3 /* FocusLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		333A5F95B10B494C88ED7CE1 /* ShieldExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72A66069BD804BE680BF6240;
+			buildPhases = (
+				AA1E504B974846959AB87E62 /* Sources */,
+				ED5E9A765CAB494E9588CC2C /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = ShieldExtension;
+			productName = ShieldExtension;
+			productReference = 92A0A7E9AFFC44AA9ADCB150 /* ShieldExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		890792C4E6F2450585AD65B4 /* DeviceActivityMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2D7CA2E9554014955F1F81;
+			buildPhases = (
+				8B77FD95A9844523998BF3D1 /* Sources */,
+				DC0668B8107C4C18A60A963D /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = DeviceActivityMonitor;
+			productName = DeviceActivityMonitor;
+			productReference = 9DECCC19A5DA4757B28885A7 /* DeviceActivityMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C32A4900EEF4842AA960D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DD12F45429DD49AC8DD00D09 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 4C35B17F17E64C63ADED0414 /* Build configuration list for PBXProject "FocusLock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = uk;
+			hasScannedForEncodings = 0;
+			knownRegions = (uk, Base);
+			mainGroup = 92BC9D9EEFD84F3E9E017E40;
+			productsGroup = 4D7197698D1A41F09B2E0B7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD12F45429DD49AC8DD00D09 /* FocusLock */,
+				333A5F95B10B494C88ED7CE1 /* ShieldExtension */,
+				890792C4E6F2450585AD65B4 /* DeviceActivityMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		F43DC76DE5D04818B09BFFE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG FOCUSLOCK_MOCK_SCREEN_TIME";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		855EC9B2D8F64ADBBF8B0BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F6C96CBFCAFD4D1BA2584330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG FOCUSLOCK_MOCK_SCREEN_TIME";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				CODE_SIGN_ENTITLEMENTS = "FocusLock/FocusLock-Debug.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"LiveFamilyControlsService.swift",
+					"LiveDeviceActivityService.swift",
+					"LiveManagedSettingsService.swift",
+					"FocusLockManagedSettings.swift",
+				);
+				FOCUSLOCK_EMBED_EXTENSIONS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "FocusLock/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.focuslock";
+				PRODUCT_BUNDLE_PACKAGE_TYPE = APPL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			};
+			name = Debug;
+		};
+		04972DB7821746C381D53DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				CODE_SIGN_ENTITLEMENTS = "FocusLock/FocusLock.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FOCUSLOCK_EMBED_EXTENSIONS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "FocusLock/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.focuslock";
+				PRODUCT_BUNDLE_PACKAGE_TYPE = APPL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+			};
+			name = Release;
+		};
+		F04AAE576DD34D72880A8168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				CODE_SIGN_ENTITLEMENTS = "ShieldExtension/ShieldExtension-Debug.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				EXCLUDED_SOURCE_FILE_NAMES = (
+					"ShieldConfigurationExtension.swift",
+					"ShieldActionExtension.swift",
+				);
+				FOCUSLOCK_BUILD_EXTENSIONS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "ShieldExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.focuslock.ShieldExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		49EEB0F203F04807B44EDF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				FOCUSLOCK_BUILD_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "ShieldExtension/ShieldExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "ShieldExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.focuslock.ShieldExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7017766F00BF40649DD5D983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				CODE_SIGN_ENTITLEMENTS = "DeviceActivityMonitor/DeviceActivityMonitor-Debug.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				EXCLUDED_SOURCE_FILE_NAMES = "DeviceActivityMonitorExtension.swift";
+				FOCUSLOCK_BUILD_EXTENSIONS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "DeviceActivityMonitor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.focuslock.DeviceActivityMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C21CCFC67D504B048C686CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				FOCUSLOCK_BUILD_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "DeviceActivityMonitor/DeviceActivityMonitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "DeviceActivityMonitor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.focuslock.DeviceActivityMonitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C35B17F17E64C63ADED0414 /* Build configuration list for PBXProject "FocusLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43DC76DE5D04818B09BFFE9 /* Debug */,
+				855EC9B2D8F64ADBBF8B0BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DCB07EFE8264A718A39F8FD /* Build configuration list for PBXNativeTarget "FocusLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C96CBFCAFD4D1BA2584330 /* Debug */,
+				04972DB7821746C381D53DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72A66069BD804BE680BF6240 /* Build configuration list for PBXNativeTarget "ShieldExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04AAE576DD34D72880A8168 /* Debug */,
+				49EEB0F203F04807B44EDF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2D7CA2E9554014955F1F81 /* Build configuration list for PBXNativeTarget "DeviceActivityMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7017766F00BF40649DD5D983 /* Debug */,
+				C21CCFC67D504B048C686CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 6C32A4900EEF4842AA960D4B /* Project object */;
+}
